@@ -36,7 +36,7 @@ import wx
 import wx.xrc
 
 
-data = pd.read_csv("/Users/siddarthmundra/Desktop/Heart_Disease_BE/heart.csv")
+data = pd.read_csv("heart.csv")
 
 data.head(5)
 
