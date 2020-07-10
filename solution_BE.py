@@ -6,7 +6,7 @@ warnings.filterwarnings('ignore')
 
 from sklearn.tree import DecisionTreeClassifier
 import pandas as pd
-from sklearn.ensemble import AdaBoostClassifier,RandomForestClassifier
+from sklearn.ensemble import RandomForestClassifier
 from sklearn.metrics import confusion_matrix,accuracy_score,roc_auc_score,classification,roc_curve
 from sklearn.model_selection import RandomizedSearchCV
 import numpy as np
